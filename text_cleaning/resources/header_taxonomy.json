@@ -1,0 +1,164 @@
+{
+  "section_seeds": {
+    "responsibilities": [
+      "responsibil",
+      "task",
+      "you will",
+      "role",
+      "day to day",
+      "duties",
+      "main function",
+      "key activities",
+      "what you'll do",
+      "what you will do",
+      "you'll do",
+      "you'll be",
+      "your role",
+      "daily",
+      "core function"
+    ],
+    "requirements": [
+      "require",
+      "qualification",
+      "experience",
+      "skill",
+      "who",
+      "must have",
+      "should have",
+      "candidate will",
+      "looking for",
+      "background in",
+      "degree in",
+      "years of",
+      "you have",
+      "you are",
+      "you need",
+      "essential",
+      "mandatory",
+      "who we're looking for",
+      "who we are looking for"
+    ],
+    "nice_to_have": [
+      "nice",
+      "preferred",
+      "ideal",
+      "perfect",
+      "advantage",
+      "bonus",
+      "plus",
+      "desirable",
+      "would be great",
+      "nice to have",
+      "optionally",
+      "beneficial",
+      "a plus"
+    ],
+    "benefits": [
+      "benefit",
+      "offer",
+      "why join",
+      "we offer",
+      "we provide",
+      "perks",
+      "package",
+      "compensation",
+      "remote",
+      "flexible",
+      "work life",
+      "culture",
+      "health",
+      "insurance",
+      "vacation"
+    ],
+    "cta": [
+      "apply",
+      "if you are",
+      "we want",
+      "ready",
+      "join us",
+      "send",
+      "submit",
+      "interested",
+      "contact",
+      "reach out",
+      "how to apply",
+      "application",
+      "get in touch",
+      "join our team",
+      "become part",
+      "start your journey"
+    ],
+    "company_info": [
+      "about us",
+      "who we are",
+      "our mission",
+      "our team",
+      "we are a",
+      "founded",
+      "company",
+      "our vision",
+      "our story"
+    ]
+  },
+  
+  "section_thresholds": {
+    "responsibilities": 1.5,
+    "requirements": 1.5,
+    "nice_to_have": 2.0,
+    "cta": 2.5,
+    "benefits": 1.5,
+    "company_info": 2.0
+  },
+  
+  "important_words": [
+    "require",
+    "responsibil",
+    "skill",
+    "experience",
+    "qualification",
+    "must",
+    "should",
+    "need",
+    "essential"
+  ],
+  
+  "contextual_rules": {
+    "what you'll do": {
+      "default": "responsibilities",
+      "near_keywords": {
+        "require": "requirements",
+        "join": "cta"
+      }
+    },
+    "what you'll bring": {
+      "default": "requirements"
+    },
+    "what you'll be doing": {
+      "default": "responsibilities"
+    },
+    "we are looking for": {
+      "default": "requirements"
+    },
+    "what we're looking for": {
+      "default": "requirements"
+    },
+    "you will": {
+      "default": "responsibilities"
+    }
+  },
+  
+  "scoring_config": {
+    "exact_match_score": 3.0,
+    "starts_with_score": 2.0,
+    "contains_score": 1.5,
+    "important_word_weight": 1.0,
+    "normal_word_weight": 0.5,
+    "multi_label_threshold": 0.8
+  },
+  
+  "confidence_levels": {
+    "high_threshold_bonus": 1.0,
+    "medium_threshold_bonus": 0.0,
+    "low_threshold_penalty": -0.5
+  }
+}

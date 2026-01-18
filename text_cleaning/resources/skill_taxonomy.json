@@ -1,0 +1,142 @@
+{
+  "programming_languages": {
+    "python": ["python", "py"],
+    "java": ["java"],
+    "kotlin": ["kotlin"],
+    "swift": ["swift"],
+    "javascript": ["javascript", "js", "ecmascript"],
+    "typescript": ["typescript", "ts"],
+    "c": ["c language", "c programming"],
+    "c++": ["c++", "cpp"],
+    "c#": ["c#", "c sharp", "csharp"],
+    "go": ["go", "golang"],
+    "rust": ["rust"],
+    "php": ["php"],
+    "ruby": ["ruby"],
+    "scala": ["scala"],
+    "r": ["r programming", "r language"]
+  },
+  
+  "frontend": {
+    "react": ["react", "react.js", "reactjs"],
+    "angular": ["angular", "angular.js"],
+    "vue": ["vue", "vue.js", "vuejs"],
+    "nextjs": ["next.js", "nextjs"],
+    "svelte": ["svelte"],
+    "html": ["html", "html5"],
+    "css": ["css", "css3"],
+    "sass": ["sass", "scss"],
+    "tailwind": ["tailwind", "tailwind css"],
+    "bootstrap": ["bootstrap"]
+  },
+  
+  "backend": {
+    "nodejs": ["node", "node.js", "nodejs"],
+    "spring": ["spring", "spring boot"],
+    "django": ["django"],
+    "flask": ["flask"],
+    "fastapi": ["fastapi", "fast api"],
+    "dotnet": [".net", "dotnet", ".net core", "asp.net"],
+    "laravel": ["laravel"],
+    "rails": ["ruby on rails", "rails"],
+    "express": ["express", "express.js"]
+  },
+  
+  "mobile": {
+    "android": ["android"],
+    "ios": ["ios"],
+    "react_native": ["react native"],
+    "flutter": ["flutter"],
+    "xamarin": ["xamarin"],
+    "swiftui": ["swiftui"]
+  },
+  
+  "databases": {
+    "sql": ["sql"],
+    "postgresql": ["postgres", "postgresql"],
+    "mysql": ["mysql"],
+    "sqlite": ["sqlite"],
+    "mongodb": ["mongodb", "mongo"],
+    "redis": ["redis"],
+    "elasticsearch": ["elasticsearch", "elastic search"],
+    "dynamodb": ["dynamodb"],
+    "cassandra": ["cassandra"]
+  },
+  
+  "cloud_devops": {
+    "aws": ["aws", "amazon web services"],
+    "azure": ["azure", "microsoft azure"],
+    "gcp": ["gcp", "google cloud"],
+    "docker": ["docker"],
+    "kubernetes": ["kubernetes", "k8s"],
+    "ci_cd": ["ci/cd", "ci cd", "continuous integration", "continuous deployment"],
+    "terraform": ["terraform"],
+    "ansible": ["ansible"],
+    "jenkins": ["jenkins"],
+    "linux": ["linux", "unix"],
+    "devops": ["devops"]
+  },
+  
+  "data_ai_ml": {
+    "ai": ["ai", "artificial intelligence"],
+    "machine_learning": ["machine learning", "ml"],
+    "deep_learning": ["deep learning", "dl"],
+    "data_science": ["data science"],
+    "data_analysis": ["data analysis"],
+    "nlp": ["nlp", "natural language processing"],
+    "computer_vision": ["computer vision", "cv"],
+    "pytorch": ["pytorch"],
+    "tensorflow": ["tensorflow"],
+    "scikit_learn": ["scikit-learn", "sklearn"],
+    "pandas": ["pandas"],
+    "numpy": ["numpy"]
+  },
+  
+  "testing_qa": {
+    "qa": ["qa", "quality assurance"],
+    "testing": ["testing", "software testing"],
+    "unit_testing": ["unit testing", "unit tests"],
+    "integration_testing": ["integration testing"],
+    "selenium": ["selenium"],
+    "cypress": ["cypress"],
+    "jest": ["jest"],
+    "pytest": ["pytest"],
+    "junit": ["junit"],
+    "appium": ["appium"],
+    "cucumber": ["cucumber"],
+    "testng": ["testng"],
+    "robot_framework": ["robot framework"]
+  },
+  
+  "methodologies": {
+    "agile": ["agile", "scrum"],
+    "kanban": ["kanban"],
+    "oop": ["oop", "object-oriented", "object oriented programming"],
+    "design_patterns": ["design patterns"],
+    "microservices": ["microservices", "micro services"],
+    "rest": ["rest", "rest api", "restful"],
+    "graphql": ["graphql"],
+    "api": ["api", "apis"]
+  },
+  
+  "version_control": {
+    "git": ["git"],
+    "github": ["github"],
+    "gitlab": ["gitlab"],
+    "bitbucket": ["bitbucket"]
+  },
+  
+  "certifications": {
+    "istqb": ["istqb", "istqb certification"],
+    "aws_certified": ["aws certified"],
+    "azure_certified": ["azure certified"],
+    "pmp": ["pmp", "project management professional"]
+  },
+  
+  "soft_skills": {
+    "communication": ["communication", "communication skills", "verbal communication", "written communication"],
+    "leadership": ["leadership", "leadership skills"],
+    "teamwork": ["teamwork", "team collaboration"],
+    "problem_solving": ["problem solving", "analytical thinking"]
+  }
+}

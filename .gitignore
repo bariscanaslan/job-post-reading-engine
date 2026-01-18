@@ -1,0 +1,7 @@
+# Confidential / generated data
+data/*
+
+.env
+*.env
+.venv
+*.venv
